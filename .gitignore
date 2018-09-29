@@ -1,3 +1,5 @@
 *.csv
 my_env
 env
+
+!team_data/*
