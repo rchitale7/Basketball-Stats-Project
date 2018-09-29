@@ -18,6 +18,9 @@ I downloaded the team wide data from <https://www.basketball-reference.com/>. Fo
 
 * Clone this repo to your computer
 * Move the data files outside of the ` team_data` folder and into the main project folder
+    * `miscStats__.csv` = miscellaneous stats per game
+    * `oTeamPG__.csv` = opponent stats per game
+    * `teamPG__.csv` = team stats per game
 * Install the requirements using ` pip install -r requirements.txt `
 * Run ` jupyter notebook `, and navigate to and run the ` project final.ipynb ` file within the notebook
 
