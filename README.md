@@ -1,6 +1,6 @@
 # Basketball Statistics Project
 
-This data storytelling project aims to explore the relationship between NBA team and player statistics and the number of wins/rating of each team. It uses pandas, numpy, and matplotlib to extract, clean, and visualize data from <https://www.basketball-reference.com/>. I used 20 years worth of team per game stats , opponent per game stats, miscellaneous per game stats, and advanced player statistics. I used the team wide data to analyze how strongly related a team's total performance in areas such as points per game (PPG) and assists per game (APG) was to its number of wins/rating. I used the player data to find any relationship between a team having 'star' players and a team's number of wins/rating  (The definition of what I decided is a 'star' player is explained below in the Process section) 
+This data storytelling project aims to explore the relationship between NBA team and player statistics and the number of wins/rating of each team. It uses pandas , numpy, and matplotlib to extract, clean, and visualize data from <https://www.basketball-reference.com/>. I used 20 years worth of team per game stats, opponent per game stats, miscellaneous per game stats, and advanced player statistics. I used the team wide data to analyze how strongly related a team's total performance in areas such as points per game (PPG) and assists per game (APG) was to its number of wins/rating. I used the player data to find any relationship between a team having 'star' players and a team's number of wins/rating  (The definition of what I decided is a 'star' player is explained below in the Process section) 
 
  # Process
 
@@ -17,7 +17,7 @@ I downloaded the team wide data from <https://www.basketball-reference.com/>. Fo
 # Installing and Running the Project
 
 * Clone this repo to your computer
-* Move the data files outside of the ` team_data ` folder and into the main project folder
+* Move the data files outside of the ` team_data` folder and into the main project folder
 * Install the requirements using ` pip install -r requirements.txt `
 * Run ` jupyter notebook `, and navigate to and run the ` project final.ipynb ` file within the notebook
 
