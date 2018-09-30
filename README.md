@@ -9,7 +9,7 @@ I downloaded the team wide data from <https://www.basketball-reference.com/>. Fo
 1. I downloaded the first 3 tables for each season going back to the 1998-1999 season as csv files, and then converted the csv files into pandas DataFrames. 
 2. I used a web scraper to extract the advanced player statistics going back to the 1998-1999 season. 
 3. After cleaning the data, I filtered the advanced player data so that only the 'star' players  remained in the DataFrame 
-    1. I defined a 'star' player using the VORP (value over replacement player) statistic that takes into account many measurable player stats (such as points, assists per game, minutes) to give an estimate of how much value a player contributes to his team. You can read more about VORP [here] (https://www.basketball-reference.com/about/bpm.html)
+    1. I defined a 'star' player using the VORP (value over replacement player) statistic that takes into account many measurable player stats (such as points, assists per game, minutes) to give an estimate of how much value a player contributes to his team. You can read more about VORP [here]. 
     2. I filtered the data so that players in the top 95% of the VORP statistic over 20 years remained. These were the 'star' players. 
     3. I then grouped the players together by team and year, adding up the stats of players who were from the same team and year. 
     4. Finally, I combined both the player and team data by team and year. I explored the relationships and trends in the data; this is more thoroughly explained in the `project_final.ipynb ` file. 
@@ -24,3 +24,4 @@ I downloaded the team wide data from <https://www.basketball-reference.com/>. Fo
 * Install the requirements using ` pip install -r requirements.txt `
 * Run ` jupyter notebook `, and navigate to and run the ` project_final.ipynb ` file within the notebook
 
+[here]: https://www.basketball-reference.com/about/bpm.html)
