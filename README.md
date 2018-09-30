@@ -12,7 +12,7 @@ I downloaded the team wide data from <https://www.basketball-reference.com/>. Fo
     1. I defined a 'star' player using the VORP (value over replacement player) statistic that takes into account many measurable player stats (such as points per game, assists per game, minutes per game) to give an estimate of how much value a player a contributes to his team. 
     2. I filtered the data so that players in the top 95% of the VORP statistic of all players over 20 years remained. 
     3. I then grouped the players together by team and year, adding up the stats of players who were from the same team and year. 
-4. Finally, I combined both the player and team data by team and year, and explored the relationships and trends in the data that are more thouroughly explained in the project final.ipynb file. 
+4. Finally, I combined both the player and team data by team and year, and explored the relationships and trends in the data that are more thouroughly explained in the `project final.ipynb ` file. 
 
 # Installing and Running the Project
 
